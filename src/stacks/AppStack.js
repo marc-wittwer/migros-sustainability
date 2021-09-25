@@ -7,6 +7,7 @@ import PointsSummary from '../screens/PointsSummary';
 import AnimalReveal from '../screens/AnimalReveal';
 import Zoo from '../screens/Zoo';
 import Questions from '../screens/Questions';
+import Goal from '../screens/Goal';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ export const AppStack = () => {
       }}
       initialRouteName="Questions">
       <Stack.Screen name="Questions" component={Questions} />
+      <Stack.Screen name="Goal" component={Goal} />
       <Stack.Screen name="Scanning" component={Scanning} />
       <Stack.Screen name="Basket" component={Basket} />
       <Stack.Screen name="BarcodeDisplay" component={BarcodeDisplay} />

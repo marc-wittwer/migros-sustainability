@@ -6,7 +6,7 @@ import {textStyles} from '../styles/text';
 
 const Questions = ({navigation}) => {
   const handleStartScanningClick = () => {
-    navigation.navigate('Scanning');
+    navigation.navigate('Goal');
   };
 
   return (
@@ -22,17 +22,29 @@ const Questions = ({navigation}) => {
         style={{
           flex: 1,
         }}>
-        <TextLabel text="We would like to get to know you better" />
+        {/* <TextLabel text="We would like to get to know you better" />
         <TextLabel text="How many animals do you want to save?" />
         <TextLabel text="How many days do you want to spend plant-based?" />
-        <TextLabel text="How many meals do you want to spend plant based?" />
+        <TextLabel text="How many meals do you want to spend plant based?" /> */}
+        <TextLabel text="What is your sustainability goal?" />
 
         <View style={{flex: 1}}>
-          <AnswerButton title="abc" onPress={handleStartScanningClick} />
-          <AnswerButton title="abc" onPress={handleStartScanningClick} />
-          <AnswerButton title="abc" onPress={handleStartScanningClick} />
-          <AnswerButton title="abc" onPress={handleStartScanningClick} />
-          <AnswerButton title="abc" onPress={handleStartScanningClick} />
+          <AnswerButton
+            title="I want to eat more plant-based."
+            onPress={handleStartScanningClick}
+          />
+          <AnswerButton
+            title="I want to eat more organic foods."
+            onPress={handleStartScanningClick}
+          />
+          <AnswerButton
+            title="I want to eat more local foods."
+            onPress={handleStartScanningClick}
+          />
+          <AnswerButton
+            title="I am happy now."
+            onPress={handleStartScanningClick}
+          />
         </View>
       </SafeAreaView>
     </>
@@ -57,7 +69,7 @@ export const AnswerButton = props => {
   );
 };
 
-const TextLabel = props => {
+export const TextLabel = props => {
   return (
     <Text
       style={{
