@@ -1,16 +1,19 @@
 import React, {useState} from 'react';
-import { createContext } from 'react';
+import {createContext} from 'react';
 
 export const AppContext = createContext();
 
+import {products} from '../data/products';
+
 const AppContextProvider = props => {
-  const [user, setUser] = useState({
-    name: 'harry potter',
-  });
+  const [cachedProducts, setCachedProducts] = useState(products);
+  const [basket, setBasket] = useState(products);
+
   return (
     <AppContext.Provider
       value={{
-        user: user,
+        basket: basket,
+        cachedProducts: cachedProducts,
       }}>
       {props.children}
     </AppContext.Provider>
