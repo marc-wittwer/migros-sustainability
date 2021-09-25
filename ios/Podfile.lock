@@ -340,6 +340,18 @@ PODS:
   - RNScreens (3.7.2):
     - React-Core
     - React-RCTImage
+  - RNSVG (12.1.1):
+    - React
+  - scandit-react-native-datacapture-barcode (6.9.2):
+    - React
+    - scandit-react-native-datacapture-core
+    - ScanditBarcodeCapture (= 6.9.2)
+  - scandit-react-native-datacapture-core (6.9.2):
+    - React
+    - ScanditCaptureCore (= 6.9.2)
+  - ScanditBarcodeCapture (6.9.2):
+    - ScanditCaptureCore (= 6.9.2)
+  - ScanditCaptureCore (6.9.2)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -398,6 +410,9 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
+  - scandit-react-native-datacapture-barcode (from `../node_modules/scandit-react-native-datacapture-barcode`)
+  - scandit-react-native-datacapture-core (from `../node_modules/scandit-react-native-datacapture-core`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -416,6 +431,8 @@ SPEC REPOS:
     - fmt
     - libevent
     - OpenSSL-Universal
+    - ScanditBarcodeCapture
+    - ScanditCaptureCore
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -479,6 +496,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
+  scandit-react-native-datacapture-barcode:
+    :path: "../node_modules/scandit-react-native-datacapture-barcode"
+  scandit-react-native-datacapture-core:
+    :path: "../node_modules/scandit-react-native-datacapture-core"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -527,9 +550,14 @@ SPEC CHECKSUMS:
   ReactCommon: eafed38eec7b591c31751bfa7494801618460459
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNScreens: 0591543e343c7444ea1756b6265d81a4295922c9
+  RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
+  scandit-react-native-datacapture-barcode: 392d7aebcce8dc3ae474339ad580a9cb421351dd
+  scandit-react-native-datacapture-core: ffc23baec0ea152c31ce6a3df13fe66100cd9025
+  ScanditBarcodeCapture: a4848586ad88ecd2679a8c95be70e52d3b5747b1
+  ScanditCaptureCore: 798fbdf52e1912a471e325d4944abbb0316a84b4
   Yoga: aa0cb45287ebe1004c02a13f279c55a95f1572f4
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: 3af295789119cf0067bf5372f685d967a71b9a37
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2
