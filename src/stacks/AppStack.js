@@ -1,6 +1,5 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import Login from '../screens/Login';
 import Basket from '../screens/Basket';
 import Scanning from '../screens/Scanning';
 import BarcodeDisplay from '../screens/BarcodeDisplay';
