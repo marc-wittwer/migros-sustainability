@@ -39,7 +39,7 @@ const Questions = ({navigation}) => {
   );
 };
 
-const AnswerButton = props => {
+export const AnswerButton = props => {
   return (
     <TouchableOpacity
       style={{
