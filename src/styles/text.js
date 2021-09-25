@@ -6,4 +6,9 @@ export const textStyles = StyleSheet.create({
     fontSize: 26,
     fontWeight: 'bold',
   },
+  bodyText: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 22,
+  },
 });
