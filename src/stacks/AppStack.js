@@ -1,6 +1,8 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from '../screens/Login';
+import Basket from '../screens/Basket';
+import Scanning from '../screens/Scanning';
 
 const Stack = createStackNavigator();
 
@@ -10,14 +12,9 @@ export const AppStack = () => {
       screenOptions={{
         header: () => null,
       }}
-      initialRouteName="Login">
-      <Stack.Screen
-        options={{
-          headerTitle: 'Sign In',
-        }}
-        name="Login"
-        component={Login}
-      />
+      initialRouteName="Scanning">
+      <Stack.Screen name="Scanning" component={Scanning} />
+      <Stack.Screen name="Basket" component={Basket} />
     </Stack.Navigator>
   );
 };
