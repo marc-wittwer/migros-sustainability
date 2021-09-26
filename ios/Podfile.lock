@@ -340,8 +340,6 @@ PODS:
   - RNScreens (3.7.2):
     - React-Core
     - React-RCTImage
-  - RNSVG (5.5.1):
-    - React
   - scandit-react-native-datacapture-barcode (6.9.2):
     - React
     - scandit-react-native-datacapture-core
@@ -410,7 +408,6 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - RNSVG (from `../node_modules/react-native-svg`)
   - scandit-react-native-datacapture-barcode (from `../node_modules/scandit-react-native-datacapture-barcode`)
   - scandit-react-native-datacapture-core (from `../node_modules/scandit-react-native-datacapture-core`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -496,8 +493,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNSVG:
-    :path: "../node_modules/react-native-svg"
   scandit-react-native-datacapture-barcode:
     :path: "../node_modules/scandit-react-native-datacapture-barcode"
   scandit-react-native-datacapture-core:
@@ -550,7 +545,6 @@ SPEC CHECKSUMS:
   ReactCommon: eafed38eec7b591c31751bfa7494801618460459
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNScreens: 0591543e343c7444ea1756b6265d81a4295922c9
-  RNSVG: c850931093bcdd4fb13f95e58d989379fa2643ec
   scandit-react-native-datacapture-barcode: 392d7aebcce8dc3ae474339ad580a9cb421351dd
   scandit-react-native-datacapture-core: ffc23baec0ea152c31ce6a3df13fe66100cd9025
   ScanditBarcodeCapture: a4848586ad88ecd2679a8c95be70e52d3b5747b1
