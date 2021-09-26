@@ -2644,4 +2644,883 @@ export const products = [
     },
     allergen_text: 'Kann Milch und Nüsse enthalten.',
   },
+  {
+    id: '130921400000',
+    language: 'de',
+    name: 'Cornatur Quorn Pfeffer Grill Steak',
+    names: {
+      short_name: 'Cornatur Quorn Pfeffer Grill Steak',
+    },
+    slug: 'cornatur-quorn-pfeffer-grill-steak',
+    boss_number: '020630310505',
+    status: {
+      id: 'available',
+      seasonal: false,
+      pim_status: '80',
+    },
+    tags: [
+      'source-pex',
+      'migipedia',
+      'view-browse-partial',
+      'view-browse-all-retailers-partial',
+    ],
+    is_variant: false,
+    gtins: ['7613404094167'],
+    brand: {
+      id: '454',
+      name: 'Cornatur',
+      slug: 'cornatur',
+    },
+    labels: [
+      {
+        id: 'L58',
+        name: 'V-vegetarisch',
+        slug: 'v-vegetarisch',
+        image: {
+          original:
+            'https://image.migros.ch/original/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg',
+          stack:
+            'https://image.migros.ch/{stack}/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg',
+        },
+      },
+    ],
+    categories: [
+      {
+        code: 'BeSS_01011303',
+        name: 'Fleischersatz & Vegetarische Spezialitäten',
+        slug: 'supermarkt/lebensmittel/fertiggerichte-menues-snacks/fleischersatz-vegetarische-spezialitaeten',
+        visible: true,
+        parent_code: 'BeSS_010113',
+        level: 4,
+      },
+      {
+        code: 'BeSS_010113',
+        name: 'Fertiggerichte, Menüs & Snacks',
+        slug: 'supermarkt/lebensmittel/fertiggerichte-menues-snacks',
+        visible: true,
+        title:
+          'Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros',
+        parent_code: 'BeSS_0101',
+        image: {
+          original:
+            'https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg',
+          stack:
+            'https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg',
+        },
+        level: 3,
+      },
+      {
+        code: 'BeSS_0101',
+        name: 'Lebensmittel',
+        slug: 'supermarkt/lebensmittel',
+        visible: true,
+        title:
+          'Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss',
+        parent_code: 'BeSS_01',
+        image: {
+          original:
+            'https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg',
+          stack:
+            'https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg',
+        },
+        level: 2,
+      },
+      {
+        code: 'BeSS_01',
+        name: 'Supermarkt',
+        slug: 'supermarkt',
+        visible: true,
+        parent_code: 'root',
+        level: 1,
+      },
+    ],
+    additional_categories: [
+      [
+        {
+          code: 'AMIG_CAT_Fleischersatz_FleischFisch',
+          name: 'Fleischersatz',
+          slug: 'amigos/fleisch-fisch/fleischersatz',
+          visible: true,
+          parent_code: 'AMIG_CAT_FleischFisch',
+          level: 3,
+        },
+        {
+          code: 'AMIG_CAT_FleischFisch',
+          name: 'Fleisch & Fisch',
+          slug: 'amigos/fleisch-fisch',
+          visible: true,
+          parent_code: 'BeSS_96',
+          level: 2,
+        },
+        {
+          code: 'BeSS_96',
+          name: 'aMigos!',
+          slug: 'amigos',
+          visible: true,
+          parent_code: 'root',
+          level: 1,
+        },
+      ],
+    ],
+    nutrition_facts: {
+      standard: {
+        nutrients: [
+          {
+            code: 'PIM_NUT_ENERGIE',
+            name: 'Energie',
+            pictogram_name: 'Energie',
+            category: 'BIG9',
+            quantity: 677,
+            quantity_value: '677',
+            quantity_numeric_value: 677,
+            nutrition_operator: '=',
+            quantity_unit: 'kJ',
+            quantity_alternate: 163,
+            quantity_alternate_value: '163',
+            quantity_alternate_numeric_value: 163,
+            quantity_alternate_unit: 'kcal',
+          },
+          {
+            code: 'PIM_NUT_FETT',
+            name: 'Fett',
+            pictogram_name: 'Fett',
+            category: 'BIG9',
+            quantity: 8.6,
+            quantity_value: '8.6',
+            quantity_numeric_value: 8.6,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+            rating: {
+              value: 1,
+              text: 'mittel',
+              icon: {
+                original:
+                  'https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+                stack:
+                  'https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+              },
+              hex_color: '#e8a800',
+            },
+          },
+          {
+            code: 'PIM_NUT_FETT_GES',
+            name: 'davon gesättigte Fettsäuren',
+            pictogram_name: 'gesättigte Fettsäuren',
+            category: 'BIG9',
+            quantity: 2.4,
+            quantity_value: '2.4',
+            quantity_numeric_value: 2.4,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+            rating: {
+              value: 1,
+              text: 'mittel',
+              icon: {
+                original:
+                  'https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+                stack:
+                  'https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+              },
+              hex_color: '#e8a800',
+            },
+          },
+          {
+            code: 'PIM_NUT_KOHLENHY',
+            name: 'Kohlenhydrate',
+            category: 'BIG9',
+            quantity: 5.3,
+            quantity_value: '5.3',
+            quantity_numeric_value: 5.3,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_ZUCKER',
+            name: 'davon Zucker',
+            pictogram_name: 'Zucker',
+            category: 'BIG9',
+            quantity: 2.3,
+            quantity_value: '2.3',
+            quantity_numeric_value: 2.3,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+            rating: {
+              value: 0,
+              text: 'gering',
+              icon: {
+                original:
+                  'https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg',
+                stack:
+                  'https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg',
+              },
+              hex_color: '#069800',
+            },
+          },
+          {
+            code: 'PIM_NUT_GES_BALL',
+            name: 'Ballaststoffe',
+            category: 'BIG9',
+            quantity: 8.1,
+            quantity_value: '8.1',
+            quantity_numeric_value: 8.1,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_PROTEINE',
+            name: 'Eiweiss',
+            category: 'BIG9',
+            quantity: 12,
+            quantity_value: '12',
+            quantity_numeric_value: 12,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_KOCHSALZ',
+            name: 'Salz',
+            pictogram_name: 'Salz',
+            category: 'BIG9',
+            quantity: 1.1,
+            quantity_value: '1.1',
+            quantity_numeric_value: 1.1,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+            rating: {
+              value: 1,
+              text: 'mittel',
+              icon: {
+                original:
+                  'https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+                stack:
+                  'https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg',
+              },
+              hex_color: '#e8a800',
+            },
+          },
+        ],
+        base_quantity: 100,
+        base_unit: 'g',
+      },
+      portion: {
+        nutrients: [
+          {
+            code: 'PIM_NUT_ENERGIE',
+            name: 'Energie',
+            pictogram_name: 'Energie',
+            category: 'BIG9',
+            quantity: 664,
+            quantity_value: '664',
+            quantity_numeric_value: 664,
+            rda_percent: 8,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'kJ',
+            quantity_alternate: 160,
+            quantity_alternate_value: '160',
+            quantity_alternate_numeric_value: 160,
+            quantity_alternate_unit: 'kcal',
+          },
+          {
+            code: 'PIM_NUT_FETT',
+            name: 'Fett',
+            pictogram_name: 'Fett',
+            category: 'BIG9',
+            quantity: 8.4,
+            quantity_value: '8.4',
+            quantity_numeric_value: 8.4,
+            rda_percent: 12,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_FETT_GES',
+            name: 'davon gesättigte Fettsäuren',
+            pictogram_name: 'gesättigte Fettsäuren',
+            category: 'BIG9',
+            quantity: 2.3,
+            quantity_value: '2.3',
+            quantity_numeric_value: 2.3,
+            rda_percent: 12,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_KOHLENHY',
+            name: 'Kohlenhydrate',
+            category: 'BIG9',
+            quantity: 5.2,
+            quantity_value: '5.2',
+            quantity_numeric_value: 5.2,
+            rda_percent: 2,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_ZUCKER',
+            name: 'davon Zucker',
+            pictogram_name: 'Zucker',
+            category: 'BIG9',
+            quantity: 2.2,
+            quantity_value: '2.2',
+            quantity_numeric_value: 2.2,
+            rda_percent: 2,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_GES_BALL',
+            name: 'Ballaststoffe',
+            category: 'BIG9',
+            quantity: 7.9,
+            quantity_value: '7.9',
+            quantity_numeric_value: 7.9,
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_PROTEINE',
+            name: 'Eiweiss',
+            category: 'BIG9',
+            quantity: 12,
+            quantity_value: '12',
+            quantity_numeric_value: 12,
+            rda_percent: 24,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+          {
+            code: 'PIM_NUT_KOCHSALZ',
+            name: 'Salz',
+            pictogram_name: 'Salz',
+            category: 'BIG9',
+            quantity: 1.1,
+            quantity_value: '1.1',
+            quantity_numeric_value: 1.1,
+            rda_percent: 18,
+            rda_percent_operator: '=',
+            nutrition_operator: '=',
+            quantity_unit: 'g',
+          },
+        ],
+        base_description: '1 Stück',
+        base_quantity: 98,
+        base_precision: '≈',
+        base_unit: 'g',
+        package_type: 'Packung',
+        portions_per_package: '2',
+        portions_per_package_precision: '=',
+      },
+    },
+    features: [
+      {
+        label_code: 'miso_cu_gebindeart',
+        label: 'Verpackungsart',
+        values: [
+          {
+            value_code: 'MISO_cu_gebindeart_kunststoffverpackungmitbanderole',
+            value: 'Kunststoff-Verpackung mit Kartonbanderole',
+          },
+        ],
+        category_code: 'MISO_CLA_LebensmittelGetraenke_Alle',
+        top_fact: false,
+      },
+      {
+        label_code: 'miso_zubereitungsverfahren',
+        label: 'Hinweise für die Zubereitung',
+        values: [
+          {
+            value_code: 'MISO_zubereitungsverfahren_inderpfanneerwaermen',
+            value: 'In der Pfanne erwärmen',
+          },
+          {
+            value_code: 'MISO_zubereitungsverfahren_braten',
+            value: 'Braten',
+          },
+          {
+            value_code: 'MISO_zubereitungsverfahren_backen',
+            value: 'Backen',
+          },
+        ],
+        category_code: 'MISO_CLA_LebensmittelGetraenke_Alle',
+        top_fact: false,
+      },
+      {
+        label_code: 'miso_zubereitungszeit',
+        label: 'Zubereitungszeit (min.)',
+        values: [
+          {
+            value: '8-10',
+          },
+        ],
+        category_code:
+          'MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_VEGETARIANISM',
+        label: 'Vegetarismus',
+        values: [
+          {
+            value_code: 'MAPI_VEGETARIANISM_vegetarisch',
+            value: 'vegetarisch',
+          },
+        ],
+        category_code: 'MAPI_VEGETARIANISM',
+        top_fact: false,
+      },
+    ],
+    retailer_flags: {
+      bikeworld: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+      doitgarden: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+      interio: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+      melectronics: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+      micasa: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+      migros_ch: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: true,
+        exclude_cross_channel: [],
+      },
+      sportxx: {
+        orderable: false,
+        reservable: false,
+        stock_request: false,
+        visible: false,
+        exclude_cross_channel: [],
+      },
+    },
+    general_information: [
+      {
+        label: 'Weitere Zusatzangaben',
+        value: 'Produkt nur durchgegart konsumieren.',
+      },
+      {
+        label: 'Kühlhinweis / Aufbewahrungshinweis',
+        value: 'Gekühlt aufbewahren bei max. +5 °C.',
+      },
+      {
+        label: 'Produktionshinweis',
+        value: 'Pasteurisiert',
+      },
+    ],
+    image: {
+      original:
+        'https://image.migros.ch/original/daae912d88666807c74bee81010f347581ffa2d1/cornatur-quorn-pfeffer-grill-steak.jpg',
+      stack:
+        'https://image.migros.ch/{stack}/daae912d88666807c74bee81010f347581ffa2d1/cornatur-quorn-pfeffer-grill-steak.jpg',
+    },
+    image_transparent: {
+      original:
+        'https://image.migros.ch/original/8f069043c3d242a01b1559aa10322831d46120ea/cornatur-quorn-pfeffer-grill-steak.png',
+      stack:
+        'https://image.migros.ch/{stack}/8f069043c3d242a01b1559aa10322831d46120ea/cornatur-quorn-pfeffer-grill-steak.png',
+    },
+    internal_features: [
+      {
+        label_code: 'common_messwert_oekobilanz',
+        label: 'Messwert Ökobilanz',
+        values: [
+          {
+            value_code: 'BOOLEAN_FALSE',
+            value: 'Nein',
+            boolean_value: false,
+          },
+        ],
+        category_code: 'Common_CLA_Klimadeklaration',
+        top_fact: false,
+      },
+      {
+        label_code: 'MISO_aMigos_anzeige',
+        label: 'Anzeige aMigos!',
+        values: [
+          {
+            value_code: 'MISO_aMigos_anzeige_ja',
+            value: 'Ja',
+          },
+        ],
+        category_code: 'MISO_CLA_aMigos_Alle',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_RETURNABLE',
+        label: 'Rückgabe',
+        values: [
+          {
+            value_code: 'BOOLEAN_TRUE',
+            value: 'true',
+            boolean_value: true,
+          },
+        ],
+        category_code: 'MAPI_RETURNABLE',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_EXCLUDE_FROM_COMPARISON_ENGINES',
+        values: [
+          {
+            value_code: 'BOOLEAN_FALSE',
+            value: 'false',
+            boolean_value: false,
+          },
+        ],
+        category_code: 'MAPI_EXCLUDE_FROM_COMPARISON_ENGINES',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_GENERAL_POSITION_GROUP',
+        values: [
+          {
+            value_code: 'NORM',
+            value: 'Normalposition',
+          },
+        ],
+        category_code: 'MAPI_GENERAL_POSITION_GROUP',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_ARTICLE_VARIETY',
+        values: [
+          {
+            value: 'ZFRP',
+          },
+        ],
+        category_code: 'MAPI_ARTICLE_VARIETY',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_PRODUCT_KIND',
+        values: [
+          {
+            value_code: 'ZFRP',
+            value: 'Frische Beschaffung',
+          },
+        ],
+        category_code: 'MAPI_PRODUCT_KIND',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_ASSORTMENT_LIST_KIND',
+        values: [
+          {
+            value_code: '7',
+            value: 'Convenience',
+          },
+        ],
+        category_code: 'MAPI_ASSORTMENT_LIST_KIND',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_PRODUCT_GROUP',
+        values: [
+          {
+            value_code: '70222',
+            value: 'GEFLUEGELERSATZ',
+          },
+        ],
+        category_code: 'MAPI_PRODUCT_GROUP',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_CUMULUS_POINTS_CODE',
+        values: [
+          {
+            value_code: 'NUMERIC_2',
+            value: '2',
+            numeric_value: 2,
+          },
+        ],
+        category_code: 'MAPI_CUMULUS_POINTS_CODE',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_PROMOTIONS_CODE',
+        values: [
+          {
+            value_code: 'NUMERIC_1',
+            value: '1',
+            numeric_value: 1,
+          },
+        ],
+        category_code: 'MAPI_PROMOTIONS_CODE',
+        top_fact: false,
+      },
+      {
+        label_code: 'MAPI_LIFECYCLE',
+        values: [
+          {
+            value_code: 'D',
+            value: 'Detailhandelsartikel',
+          },
+        ],
+        category_code: 'MAPI_LIFECYCLE',
+        top_fact: false,
+      },
+    ],
+    vat: {
+      id: 2,
+      percentage: 2.5,
+    },
+    regulated_description:
+      'Vegetarische Grill Steaks auf Basis von Quorn (Pilzprodukt), gewürzt, vorgegart, zum Gekochtessen',
+    links: {
+      migros_ch: {
+        url: 'https://produkte.migros.ch/products/130921400000',
+        name: 'migros.ch',
+        canonical:
+          'https://produkte.migros.ch/cornatur-quorn-pfeffer-grill-steak',
+        type: 'info',
+        purchasable: false,
+      },
+      migros_online: {
+        url: 'https://shop.migros.ch/de/direct/product/69788',
+        app_url: 'migros://ecommerce.app/products/id/69788',
+        mo_product_id: '69788',
+        name: 'Migros Online',
+        canonical:
+          'https://produkte.migros.ch/cornatur-quorn-pfeffer-grill-steak',
+        type: 'shop',
+        purchasable: true,
+      },
+      migipedia: {
+        url: 'https://migipedia.migros.ch/de/products/130921400000',
+        name: 'Migipedia',
+        canonical:
+          'https://produkte.migros.ch/cornatur-quorn-pfeffer-grill-steak',
+        type: 'info',
+        purchasable: false,
+      },
+    },
+    regional_availability: {
+      gmaa: {
+        probability: 56,
+      },
+      gmbs: {
+        probability: 62,
+      },
+      gmge: {
+        probability: 52,
+      },
+      gmlu: {
+        probability: 50,
+      },
+      gmnf: {
+        probability: 41,
+      },
+      gmos: {
+        probability: 53,
+      },
+      gmti: {
+        probability: 47,
+      },
+      gmvd: {
+        probability: 36,
+      },
+      gmvs: {
+        probability: 22,
+      },
+      gmzh: {
+        probability: 62,
+      },
+    },
+    m_check2: {
+      carbon_footprint: {
+        image: {
+          original:
+            'https://image.migros.ch/original/b32b6bbf2bf64dd1badce8c518c6721e7d32da4c.svg',
+          stack:
+            'https://image.migros.ch/{stack}/b32b6bbf2bf64dd1badce8c518c6721e7d32da4c.svg',
+        },
+        ground_and_sea_cargo: {
+          kg_co2: 4.597,
+          kg_co2_range: '2 - 4.7 kg CO₂eq / kg',
+          co2_in_car_km: 25,
+          rating: 3,
+          production_in_percent: 95,
+          packaging_in_percent: 4,
+          transport_in_percent: 2,
+        },
+      },
+    },
+    updated_at: '2021-08-23T07:43:40+0200',
+    sap_created_at: '2018-07-19T00:00:00+0200',
+    base_unit: 'CU',
+    slugs: {
+      de: 'cornatur-quorn-pfeffer-grill-steak',
+      fr: 'cornatur-quorn-steak-au-poivre',
+      it: 'cornatur-quorn-bistecca-al-pepe',
+      en: 'cornatur-quorn-pfeffer-grill-steak',
+    },
+    receipt_text: 'Cornatur Pfeffer Steak',
+    type: '00',
+    main_supplier: {
+      name: 'BISCHOFSZELL',
+      id: '0003800000',
+      supplier_product_id: '300000394',
+    },
+    price: {
+      valid_from: '2021-05-28T00:00:00+0200',
+      valid_to: '9999-12-31T23:59:59+0100',
+      currency: 'CHF',
+      source: 'PriceRepository',
+      item: {
+        price: 4.9,
+        quantity: 1,
+        unit: 'CU',
+        varying_quantity: false,
+        display_quantity: '195g',
+      },
+      base: {
+        price: 2.51,
+        quantity: 100,
+        unit: 'g',
+      },
+    },
+    retailer: {
+      id: 'supermarkt',
+      name: 'Supermarkt',
+    },
+    ratings: {
+      count_all: 17,
+      average_all: 3.705882352941,
+    },
+    data_source: 'SAP-X11',
+    package: {
+      content: 195,
+      content_unit_code: 'g',
+      content_unit: 'Gramm',
+      net_weight: 0.195,
+      net_weight_unit_code: 'kg',
+      net_weight_unit: 'Kilogramm',
+      brutto_weight: 0.22,
+      brutto_weight_unit_code: 'kg',
+      brutto_volume: 0.864,
+      brutto_volume_unit_code: 'cdm',
+      height: 24.5,
+      length: 2.5,
+      width: 14.1,
+      unit_dimension: 'cm',
+      price_comparison_content: 100,
+      size: '195g',
+    },
+    package_information: {
+      tu: {
+        gtins: ['7613404094174'],
+        brutto_weight: 0.44,
+        brutto_weight_unit_code: 'kg',
+        brutto_volume: 31.92,
+        brutto_volume_unit_code: 'cdm',
+        height: 13.3,
+        length: 60,
+        width: 40,
+        dimension_unit_code: 'cm',
+        number_of_base_units: 2,
+      },
+      cu: {
+        gtins: ['7613404094167'],
+        brutto_weight: 0.22,
+        brutto_weight_unit_code: 'kg',
+        brutto_volume: 0.864,
+        brutto_volume_unit_code: 'cdm',
+        height: 24.5,
+        length: 2.5,
+        width: 14.1,
+        dimension_unit_code: 'cm',
+        number_of_base_units: 1,
+      },
+    },
+    declarations: {
+      food: {
+        food_declaration_gtins: ['7613404094167'],
+        nutri_score: {
+          value: 'A',
+          image: {
+            original:
+              'https://image.migros.ch/original/ae3dfecb5a72aefe755971e0517fdca2d9ee4eb9.png',
+            stack:
+              'https://image.migros.ch/{stack}/ae3dfecb5a72aefe755971e0517fdca2d9ee4eb9.png',
+          },
+        },
+        features: [
+          {
+            label_code: 'GDSN_M281_NetContent',
+            label: 'Nettofüllmenge Wert',
+            values: [
+              {
+                value_code: 'NUMERIC_195',
+                value: '195',
+                numeric_value: 195,
+              },
+            ],
+            category_code: 'GDSN',
+            top_fact: false,
+            unit_code: 'g',
+          },
+          {
+            label_code: 'QIM_ZubereitungshinweisDeklaration',
+            label: 'Zubereitungshinweis',
+            values: [
+              {
+                value:
+                  'Verpackung komplett entfernen. HERD: 8 MIN. 1 EL Öl in der Pfanne erhitzen. Die Pfeffer Grill Steaks bei mittlerer Hitze braten. Während der Zubereitung mehrmals wenden. Jedes Küchengerät ist anders. Daher gelten diese Angaben als Richtwerte. Nur durchgegart verzehren.',
+              },
+            ],
+            category_code: 'GDSN',
+            top_fact: false,
+          },
+          {
+            label_code: 'MAPI_CERTIFICATION_BODY',
+            label:
+              'Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer',
+            category_code: 'GDSN',
+            top_fact: false,
+          },
+        ],
+      },
+    },
+    reindex_date: '9999-12-31T00:00:00+0100',
+    recipe_ingredient_ids: ['15571'],
+    views: ['all', 'browse', 'browseallretailers'],
+    ingredients:
+      'Quorn Grillsteak 90% (Pilzprodukt Quorn 56% [England], Zwiebeln, Wasser, Gewürzzubereitung [Maltodextrin, Aromen, Glukose, Kochsalz, Zwiebeln, Säuerungsmittel: E 331, Citronensäure und Ascorbinsäure], Rapsöl, <strong>Eiweiss</strong> (von Eiern aus Freilandhaltung), <strong>Milch</strong>proteinpulver, Tapiokastärke, Verdickungsmittel: Pektin, Festigungsmittel: E 263 und E 509), Wasser, Glukosesirup getrocknet (enthält <strong>Weizen</strong>), roter, grüner und schwarzer Pfeffer, Kartoffelstärke, Kochsalz, Sonnenblumenöl.',
+    origins: {
+      producing_country: 'Hergestellt in England',
+    },
+  },
 ];

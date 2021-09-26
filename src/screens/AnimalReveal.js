@@ -1,6 +1,5 @@
-import React from 'react';
-import {Button, Image, SafeAreaView, Text, View} from 'react-native';
-import {useState} from 'react/cjs/react.development';
+import React, {useState} from 'react';
+import {Image, SafeAreaView, View} from 'react-native';
 import {AnswerButton, MigrosMImage, TextLabel} from './Questions';
 
 const AnimalReveal = ({navigation}) => {
